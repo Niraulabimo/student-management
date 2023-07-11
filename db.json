@@ -1,53 +1,53 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "student1",
-      "email": "student1@gmail.com"
+      "name": "sita",
+      "email": "sita@gmail.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "student2",
-      "email": "student2@gmail.com"
+      "name": "Bimochan Niraula",
+      "email": "bimochanniraula08@gmail.com",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "student3",
-      "email": "student3@gmail.com"
+      "name": "gaurav",
+      "email": "single@gmail.com",
+      "id": 3
     },
     {
-      "name": "student4",
-      "email": "student4@gmail.com",
+      "name": "ram",
+      "email": "ram@gmail.com",
       "id": 4
     },
     {
-      "name": "dddd",
-      "email": "dddd@gmail.com",
+      "name": "hari",
+      "email": "hari@gmail.com",
       "id": 5
     },
     {
-      "name": "bimo",
-      "email": "bimo@gmail.com",
+      "name": "Hari Bahadur",
+      "email": "harry@gmail.com",
       "id": 6
     },
     {
-      "name": "bimo",
-      "email": "b@gmail.com",
+      "name": "gaurav",
+      "email": "gklea@gmail.com",
       "id": 7
     },
     {
-      "name": null,
-      "email": null,
+      "name": "pk",
+      "email": "pk@gmail.com",
       "id": 8
     },
     {
-      "name": "",
-      "email": "",
+      "name": "ram bahadur",
+      "email": "ramu@gmail.com",
       "id": 9
     },
     {
-      "name": "",
-      "email": "",
+      "name": "madan bahadur",
+      "email": "madan@gmail.com",
       "id": 10
     }
   ]

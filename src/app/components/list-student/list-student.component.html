@@ -1,5 +1,5 @@
 <h1>Student List</h1>
-<table class="table">
+<table class="table" datatable [dtOptions]="dtOptions">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -14,7 +14,12 @@
             <th scope="row">{{item.id}}</th>
             <td>{{item.name}}</td>
             <td>{{item.email}}</td>
-            <td><span (click)="deleteStudent(item.id)">Delete</span></td>
+            <td>
+                <i (click)="deleteStudent(item.id)" class="fa fa-trash"></i>
+                &nbsp;
+                <a routerLink="/edit/{{item.id}}"><i class="fa fa-edit"></i> </a>
+            
+            </td>
         </tr>
     </tbody>
 </table>

@@ -14,4 +14,15 @@ export class StudentsService {
     console.log(data);
     return this.http.post(this.url, data);
   }
+  deleteStudent(id: number) {
+    // console.warn(id);
+    return this.http.delete(`${this.url}/${id}`);
+  }
+  getStudentByid(id: number) {
+    // console.warn(id);
+    return this.http.get(`${this.url}/${id}`);
+  }
+  updateStudentData(id: number, data: any) {
+    return this.http.put(`${this.url}/${id}`, data);
+  }
 }
